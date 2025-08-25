@@ -5,7 +5,8 @@
 
 ## Part 1 - GitHub Profile
 
-1. [AGranville1](FIXTHISURL-https://github.com/AGranville1)
+1. [AGranville1](https://github.com/AGranville1)
+2. [Gorph111126](https://github.com/Gorph111126)
 
 ## Part 2 - Research
 
