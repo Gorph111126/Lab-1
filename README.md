@@ -33,26 +33,26 @@ My Command Line Shell is: powershell
 
 ### Navigating My OS on the Command Line
 
-1. Full / absolute path to your user's home directory:
-2. Create a directory named `DirA`:
-3. Create a directory named `Dir B`:
-4. Go into `DirA`:
-5. Go into `Dir B` from `DirA`:
-6. Return to your user's home directory:
-7. Create a file named `test.txt`:
-8. Move the file named `test.txt` into `DirA`:
-9. Contents of `test.txt`:
+1. Full / absolute path to your user's home directory: C:\Users\ahgra\documents\github\lab-1
+2. Create a directory named `DirA`: mkdir DirA
+3. Create a directory named `Dir B`: mkdir 'Dir B'
+4. Go into `DirA`: cd DirA
+5. Go into `Dir B` from `DirA`: cd ../'Dir B'
+6. Return to your user's home directory: cd ..
+7. Create a file named `test.txt`: touch test.txt   
+8. Move the file named `test.txt` into `DirA`: mv test.txt DirA
+9. Contents of `test.txt`: notepad.exe DirA/test.txt
 ```
-Put your words here
+Keep it up, you got this!
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-11. View the contents of `DirA`: 
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp DirA/test.txt DirA/copy.txt
+11. View the contents of `DirA`: ls DirA
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: cp DirA/test.txt "Dir B/fodder.txt"
+13. Delete / remove both `fodder.txt` AND `Dir B`: rm "Dir B" -r
 
 ## Citations
 
-To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
+I have taken courses that have gone over this topic.
 
 
 
